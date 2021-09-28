@@ -1,0 +1,235 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+ul{
+    margin: 0%;
+    padding:0%;
+}
+
+.Button_1{
+    height: 38px;
+    background-color: #e8491d;
+    padding: 0 20px 0 20px;
+    border: 0;
+    color: whitesmoke;
+}
+
+header{
+    background-color: #333333;
+    color: whitesmoke;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 4px solid #e8491d;
+}
+
+.dark{
+    padding: 15px;
+    background: #333333;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px;
+
+}
+
+header #logo_name{
+    float: left;
+}
+
+header #logo_name h1{
+    margin: 0%;
+}
+
+header nav{
+    float: right;
+    margin-top: -44px;
+
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: gray;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 300px;
+    background: url("https://wallpapercave.com/wp/wp6037549.jpg") no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 55px;
+} 
+
+#showcase p{
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+#newsletter{
+    padding:15px;
+    color: whitesmoke;
+    background-color: #333333;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    max-width: 90px;
+}
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top:10px;
+}
+
+.contact input{
+    width: 95%;
+    padding: 5px;
+}
+
+.contact{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact h1{
+    text-align: center;
+    color: #e8491d;
+}
+
+.contact .But_1{
+    margin: auto;
+    background: #e8491d;
+    color: whitesmoke;
+    height: 38px;
+    padding: 0 20px 0 20px;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media(max-width: 768px){ 
+    header #logo_name, header nav, header nav li, #newsletter h1, #boxes .box, article#main-col, aside#sidebar{
+        float: none;
+        margin: 0;
+        padding: 0 0 20px 0;
+        text-align: center;
+        width: 100%;    
+    }
+
+    #showcase{
+        max-height: 100px;
+        background-size: cover; 
+        overflow: hidden;
+        font-size: 14px;
+        background-repeat: no-repeat;
+        width: fit-content;
+        /* margin-left:50px; */
+        /* padding:50px; */
+        
+    }
+
+    #showcase h1{
+        font-size: 30px;
+        text-decoration: none;
+        margin: 0;
+        padding: 25px 0 0 0;
+    }
+
+    #showcase p{
+        padding: 40px 0 0 0;
+        margin: 0;
+        line-height: 1em;
+    }
+
+    #newsletter .Button_1{
+        display: block;
+        width: 100%;
+        float: left;
+        margin: 0 40px 5px 0;
+        /* margin-right: 40px; */
+    }
+
+    #newsletter input[type="email"]{
+        float: left;
+        width: 100%;
+        margin: 0 40px 5px 0;
+        /* margin-bottom: 5px; */
+        /* margin-right: 40px; */
+    }
+
+}
